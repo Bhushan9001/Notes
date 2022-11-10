@@ -39,3 +39,19 @@ docker login -u docker-registry-username
 ```bash
 docker push docker-registry-username/docker-image-name
 ```
+Install and configure Jenkins to build job integrating with github
+```bash
+
+
+Go to your Jenkins profile
+Click on New item
+Give name and select freestyle project then Done
+Go to source code management
+Then click on git
+Enter repository url
+Then in build triggers
+Check the GitHub hook trigger.......
+Then click on save
+After that in build history
+Check console output
+```
