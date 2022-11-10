@@ -41,8 +41,6 @@ docker push docker-registry-username/docker-image-name
 ```
 Install and configure Jenkins to build job integrating with github
 ```bash
-
-
 Go to your Jenkins profile
 Click on New item
 Give name and select freestyle project then Done
