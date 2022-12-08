@@ -36,6 +36,9 @@ repository/new_image_name
 ```bash
 docker login -u docker-registry-username
 ```
+```
+pwd
+```
 ```bash
 docker push docker-registry-username/docker-image-name
 ```
